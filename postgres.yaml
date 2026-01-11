@@ -6,11 +6,16 @@ services:
       - "5432:5432"
     volumes:
       - postgres:/var/lib/postgresql
-    network_mode: bridge
+    networks:
+      - n8n
     restart: unless-stopped
     environment:
       POSTGRES_PASSWORD: postgres
 
 volumes:
   postgres:
+    external: true
+
+networks:
+  n8n:
     external: true
