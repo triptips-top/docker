@@ -1,0 +1,18 @@
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    volumes:
+      - ollama:/root/.ollama
+    networks:
+      - n8n
+    restart: unless-stopped
+
+volumes:
+  ollama:
+    external: true
+
+networks:
+  n8n:
+    external: true
+# docker-compose -f .\ollama.yaml -p ollama exec ollama ollama run qwen3:0.6b
