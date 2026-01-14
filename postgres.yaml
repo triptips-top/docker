@@ -19,3 +19,4 @@ volumes:
 networks:
   n8n:
     external: true
+# docker-compose -f .\postgres.yaml -p postgres exec postgres bash -c "apt-get update && apt-get install -y postgresql-18-pgvector"

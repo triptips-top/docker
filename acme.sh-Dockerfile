@@ -1,0 +1,6 @@
+FROM alpine
+RUN apk add curl openssl
+RUN curl https://get.acme.sh | sh -s email=fuhanw@qq.com --force
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+
+# docker buildx build -f .\acme.sh-Dockerfile -t acme.sh .
