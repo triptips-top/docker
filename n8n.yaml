@@ -14,7 +14,7 @@ services:
       TZ: Asia/Shanghai
       N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: true
       N8N_SECURE_COOKIE: false
-      N8N_EDITOR_BASE_URL: http://n8n.wss.qh.cn:5678
+      N8N_HOST: n8n.wss.qh.cn
 
       N8N_RUNNERS_ENABLED: true
       N8N_RUNNERS_MODE: external
