@@ -1,0 +1,11 @@
+services:
+  akshare:
+    image: registry.cn-shanghai.aliyuncs.com/akfamily/aktools:1.18.12
+    container_name: akshare
+    networks:
+      - n8n
+    restart: unless-stopped
+
+networks:
+  n8n:
+    external: true
