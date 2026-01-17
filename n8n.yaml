@@ -30,10 +30,8 @@ services:
       DB_POSTGRESDB_SCHEMA: public
 
   runners:
-    image: n8nio/runners:custom
+    image: n8nio/runners
     container_name: n8n-runners
-    volumes:
-      - D:\docker:/home/runner
     networks:
       - n8n
     restart: unless-stopped
