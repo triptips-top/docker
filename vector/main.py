@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from rawdata import RawData
-from vector import Vector
+from raw_data import RawData
+from vector_core import Vector
 
 
 app = FastAPI()

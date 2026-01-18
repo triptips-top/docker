@@ -1,4 +1,4 @@
-from rawdata import RawData
+from raw_data import RawData
 
 
 class Vector():

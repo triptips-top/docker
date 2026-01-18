@@ -1,13 +1,13 @@
 services:
-  qlib:
-    image: qlib
-    container_name: qlib
+  vector:
+    image: vector
+    container_name: vector
     volumes:
-      - D:\docker\qlib:/home/qlib
+      - D:\docker\vector:/home/vector
     networks:
       - n8n
     restart: unless-stopped
-    working_dir: /home/qlib
+    working_dir: /home/vector
     command: >
       fastapi run --reload
 
