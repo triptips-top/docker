@@ -34,7 +34,7 @@ class Vector():
         vector_macd = macd["macd"] / numpy.max(numpy.abs(macd["macd"]))
 
         vector = numpy.column_stack([
-            vector_dif[-100:], vector_dea[-100:], vector_macd[-100:]
+            vector_dif[-20:], vector_dea[-20:], vector_macd[-20:]
         ]).flatten()
 
         return vector.tolist()
