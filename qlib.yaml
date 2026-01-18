@@ -1,0 +1,16 @@
+services:
+  qlib:
+    image: qlib
+    container_name: qlib
+    volumes:
+      - D:\docker\qlib:/home/qlib
+    networks:
+      - n8n
+    restart: unless-stopped
+    working_dir: /home/qlib
+    command: >
+      fastapi run --reload
+
+networks:
+  n8n:
+    external: true

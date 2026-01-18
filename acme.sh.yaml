@@ -1,0 +1,17 @@
+services:
+  acme.sh:
+    image: acme.sh
+    container_name: acme.sh
+    volumes:
+      - acme.sh:/root/.acme.sh
+    network_mode: bridge
+    environment:
+      DP_Id: 585076
+      DP_Key: f7332a425a36ca35421ca65e3b999152
+
+volumes:
+  acme.sh:
+    external: true
+# docker-compose -f .\acme.sh.yaml -p acmesh up -d
+# docker-compose -f .\acme.sh.yaml -p acmesh exec acme.sh sh -c "/root/.acme.sh/acme.sh --issue --dns dns_dp -d dns.wss.qh.cn"
+# docker-compose -f .\acme.sh.yaml -p acmesh exec acme.sh sh -c "/root/.acme.sh/acme.sh --renew -d dns.wss.qh.cn --force"

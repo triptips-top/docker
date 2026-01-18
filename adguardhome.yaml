@@ -1,0 +1,14 @@
+services:
+  adguardhome:
+    image: adguard/adguardhome
+    container_name: adguardhome
+    ports:
+      - "443:443"
+    volumes:
+      - adguardhome:/opt/adguardhome
+    network_mode: bridge
+    restart: unless-stopped
+
+volumes:
+  adguardhome:
+    external: true

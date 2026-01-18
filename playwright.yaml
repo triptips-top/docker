@@ -1,0 +1,23 @@
+services:
+  playwright:
+    image: mcr.microsoft.com/playwright/mcp
+    container_name: playwright
+    networks:
+      - n8n
+    restart: unless-stopped
+    init: true
+    entrypoint: node
+    command: >
+      cli.js
+      --headless
+      --browser chromium
+      --no-sandbox
+      --isolated
+      --shared-browser-context
+      --host 0.0.0.0
+      --port 8931
+      --allowed-hosts *
+
+networks:
+  n8n:
+    external: true

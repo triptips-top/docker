@@ -1,0 +1,74 @@
+services:
+  minio-0:
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
+    container_name: minio-0
+    ports:
+      - "9000:9000"
+      - "9010:9010"
+    volumes:
+      - minio-0:/data
+    networks:
+      - minio
+    command: >
+      server
+      http://minio-0:9000/data
+      http://minio-1:9000/data
+      http://minio-2:9000/data
+      http://minio-3:9000/data
+      --console-address ":9010"
+
+  minio-1:
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
+    container_name: minio-1
+    volumes:
+      - minio-1:/data
+    networks:
+      - minio
+    command: >
+      server
+      http://minio-0:9000/data
+      http://minio-1:9000/data
+      http://minio-2:9000/data
+      http://minio-3:9000/data
+
+  minio-2:
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
+    container_name: minio-2
+    volumes:
+      - minio-2:/data
+    networks:
+      - minio
+    command: >
+      server
+      http://minio-0:9000/data
+      http://minio-1:9000/data
+      http://minio-2:9000/data
+      http://minio-3:9000/data
+
+  minio-3:
+    image: minio/minio:RELEASE.2025-04-22T22-12-26Z
+    container_name: minio-3
+    volumes:
+      - minio-3:/data
+    networks:
+      - minio
+    command: >
+      server
+      http://minio-0:9000/data
+      http://minio-1:9000/data
+      http://minio-2:9000/data
+      http://minio-3:9000/data
+
+volumes:
+  minio-0:
+    external: true
+  minio-1:
+    external: true
+  minio-2:
+    external: true
+  minio-3:
+    external: true
+
+networks:
+  minio:
+    external: true
