@@ -29,12 +29,16 @@ class Vector():
     def macd(self):
         macd = Ta().macd(self.close)
 
-        vector_dif = macd["dif"] / numpy.max(numpy.abs(macd["dif"]))
-        vector_dea = macd["dea"] / numpy.max(numpy.abs(macd["dea"]))
-        vector_macd = macd["macd"] / numpy.max(numpy.abs(macd["macd"]))
+        dif_abs_max = numpy.max(numpy.abs(macd["dif"][-20:]))
+        dea_abs_max = numpy.max(numpy.abs(macd["dea"][-20:]))
+        macd_abs_max = numpy.max(numpy.abs(macd["macd"][-20:]))
+
+        vector_dif = macd["dif"][-20:] / dif_abs_max
+        vector_dea = macd["dea"][-20:] / dea_abs_max
+        vector_macd = macd["macd"][-20:] / macd_abs_max
 
         vector = numpy.column_stack([
-            vector_dif[-20:], vector_dea[-20:], vector_macd[-20:]
+            vector_dif, vector_dea, vector_macd
         ]).flatten()
 
         return vector.tolist()
