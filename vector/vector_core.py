@@ -26,16 +26,32 @@ class Vector():
         self.raw_data = raw_data
         self.close = numpy.array([item.收盘 for item in raw_data])
 
+    def kline(self):
+        close_60 = self.close[-60:]
+
+        close_min = numpy.min(close_60)
+        close_max = numpy.max(close_60)
+
+        vector_close = (close_60-close_min) / (close_max-close_min)
+
+        vector = numpy.asarray(vector_close)
+
+        return vector.tolist()
+
     def macd(self):
         macd = Ta().macd(self.close)
 
-        dif_abs_max = numpy.max(numpy.abs(macd["dif"][-20:]))
-        dea_abs_max = numpy.max(numpy.abs(macd["dea"][-20:]))
-        macd_abs_max = numpy.max(numpy.abs(macd["macd"][-20:]))
+        dif_20 = macd["dif"][-20:]
+        dea_20 = macd["dea"][-20:]
+        macd_20 = macd["macd"][-20:]
 
-        vector_dif = macd["dif"][-20:] / dif_abs_max
-        vector_dea = macd["dea"][-20:] / dea_abs_max
-        vector_macd = macd["macd"][-20:] / macd_abs_max
+        dif_abs_max = numpy.max(numpy.abs(dif_20))
+        dea_abs_max = numpy.max(numpy.abs(dea_20))
+        macd_abs_max = numpy.max(numpy.abs(macd_20))
+
+        vector_dif = dif_20 / dif_abs_max
+        vector_dea = dea_20 / dea_abs_max
+        vector_macd = macd_20 / macd_abs_max
 
         vector = numpy.column_stack([
             vector_dif, vector_dea, vector_macd
