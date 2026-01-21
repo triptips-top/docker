@@ -13,6 +13,14 @@ class Ta():
 
         return ema
 
+    def ma(self, data, period: int):
+        ma = numpy.full_like(data, 0)
+
+        for i in range(period-1, len(data)):
+            ma[i] = numpy.mean(data[i-period+1:i+1])
+
+        return ma
+
     def macd(self, data):
         dif = self.ema(data, 12) - self.ema(data, 26)
         dea = self.ema(dif, 9)
@@ -35,6 +43,28 @@ class Vector():
         vector_close = (close_60-close_min) / (close_max-close_min)
 
         vector = numpy.asarray(vector_close)
+
+        return vector.tolist()
+
+    def ma(self):
+        ma_20 = Ta().ma(self.close, 20)[-40:]
+        ma_60 = Ta().ma(self.close, 60)[-40:]
+        ma_120 = Ta().ma(self.close, 120)[-40:]
+
+        ma_20_min = numpy.min(ma_20)
+        ma_20_max = numpy.max(ma_20)
+        ma_60_min = numpy.min(ma_60)
+        ma_60_max = numpy.max(ma_60)
+        ma_120_min = numpy.min(ma_120)
+        ma_120_max = numpy.max(ma_120)
+
+        vector_ma_20 = (ma_20-ma_20_min) / (ma_20_max-ma_20_min)
+        vector_ma_60 = (ma_60-ma_60_min) / (ma_60_max-ma_60_min)
+        vector_ma_120 = (ma_120-ma_120_min) / (ma_120_max-ma_120_min)
+
+        vector = numpy.column_stack([
+            vector_ma_20, vector_ma_60, vector_ma_120
+        ]).flatten()
 
         return vector.tolist()
 

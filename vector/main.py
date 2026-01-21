@@ -12,5 +12,6 @@ def vector(raw_data: list[RawData]):
 
     return {
         "vector_kline": vector.kline(),
+        "vector_ma": vector.ma(),
         "vector_macd": vector.macd()
     }
