@@ -9,7 +9,11 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
+      OFFLINE_MODE: true
       HF_HUB_OFFLINE: 1
+      RAG_EMBEDDING_MODEL_AUTO_UPDATE: false
+      RAG_RERANKING_MODEL_AUTO_UPDATE: false
+      WHISPER_MODEL_AUTO_UPDATE: false
 
 volumes:
   open-webui:
