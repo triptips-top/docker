@@ -1,6 +1,6 @@
 services:
   akshare:
-    image: registry.cn-shanghai.aliyuncs.com/akfamily/aktools:1.18.12
+    image: registry.cn-shanghai.aliyuncs.com/akfamily/aktools:1.18.16
     container_name: akshare
     networks:
       - n8n
