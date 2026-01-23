@@ -9,7 +9,6 @@ services:
     network_mode: bridge
     restart: unless-stopped
     environment:
-      OPENAI_API_KEY: qwertyuiop
       HF_HUB_OFFLINE: 1
 
 volumes:
