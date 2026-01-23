@@ -1,0 +1,17 @@
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    volumes:
+      - open-webui:/app/backend/data
+    network_mode: bridge
+    restart: unless-stopped
+    environment:
+      OPENAI_API_KEY: qwertyuiop
+      HF_HUB_OFFLINE: 1
+
+volumes:
+  open-webui:
+    external: true
