@@ -1,0 +1,26 @@
+services:
+  backup:
+    image: alpine
+    container_name: backup
+    volumes:
+      - E:\docker:/docker
+      - n8n:/n8n
+      - postgres:/postgres
+      - open-webui:/open-webui
+    command: >
+      sh -c "
+          Ymd=$$(date +%Y%m%d) &&
+          tar -cf n8n_$${Ymd}.tar n8n/ &&
+          tar -cf postgres_$${Ymd}.tar postgres/ &&
+          tar -cf open-webui_$${Ymd}.tar open-webui/ &&
+          cp *.tar docker/
+        "
+
+volumes:
+  n8n:
+    external: true
+  postgres:
+    external: true
+  open-webui:
+    external: true
+# docker-compose -f .\backup.yaml run --rm backup
