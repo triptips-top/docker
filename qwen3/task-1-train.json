@@ -166,11 +166,11 @@
         },
         {
             "role": "user",
-            "content": ""
+            "content": "\\t<li><span class=\\\"rt\\\">2026-02-03</span>·<a href=\\\"http://www.zxxww.com.cn/show-164-162593-1.html\\\" target=\\\"_blank\\\" title=\\\"竹溪县人民政府关于在城区禁止燃放烟花爆竹的通告\\\">\\n"
         },
         {
             "role": "assistant",
-            "content": ""
+            "content": "{\"title\":\"竹溪县人民政府关于在城区禁止燃放烟花爆竹的通告\",\"url\":\"http://www.zxxww.com.cn/show-164-162593-1.html\",\"date\":\"2026-02-03\"}"
         }
     ]
 }
@@ -182,11 +182,11 @@
         },
         {
             "role": "user",
-            "content": ""
+            "content": "\\t\\t<li><span class=\\\"rt\\\">2026-02-03</span>·<a href=\\\"http://www.zxxww.com.cn/show-164-162592-1.html\\\" target=\\\"_blank\\\" title=\\\"关于省市2026年事业单位招聘的通知\\\">\\n"
         },
         {
             "role": "assistant",
-            "content": ""
+            "content": "{\n  \"title\": \"关于省市2026年事业单位招聘的通知\",\n  \"url\": \"http://www.zxxww.com.cn/show-164-162592-1.html\",\n  \"date\": \"2026-02-03\"\n}"
         }
     ]
 }
@@ -198,11 +198,11 @@
         },
         {
             "role": "user",
-            "content": ""
+            "content": "\\t\\t<li><span class=\\\"rt\\\">2026-02-03</span>·<a href=\\\"http://www.zxxww.com.cn/show-168-162576-1.html\\\" target=\\\"_blank\\\" title=\\\"致竹溪籍在外务工人员的一封信\\\">\\n"
         },
         {
             "role": "assistant",
-            "content": ""
+            "content": "{\n  \"title\": \"致竹溪籍在外务工人员的一封信\",\n  \"url\": \"http://www.zxxww.com.cn/show-168-162576-1.html\"\n  ,\n  \"date\": \"2026-02-03\"\n}"
         }
     ]
 }
@@ -214,11 +214,11 @@
         },
         {
             "role": "user",
-            "content": ""
+            "content": "<li class=\\\"list-group-item border-0\\\"><a href=\\\"./202602/t20260202_4895963.shtml\\\" target=\\\"_self\\\" title=\\\"山之道·竹溪小炒（武陵不夜城店）招聘\\\" class=\\\"text-decoration-none text-reset\\\">山之道·竹溪小炒（武陵不夜城店）招聘</a><span class=\\\"text-nowrap text-black-50 pl-3 d-none d-sm-inline-block\\\">2026-02-02</span><span class=\\\"text-nowrap text-black-50 pl-3 d-inline-block d-sm-none\\\">02-02</span></li>\\n"
         },
         {
             "role": "assistant",
-            "content": ""
+            "content": "{\n  \"title\": \"山之道·竹溪小炒（武陵不夜城店）招聘\",\n  \"url\": \"http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/202602/t20260202_4895963.shtml\",\n  \"date\": \"2026-02-02\"\n}"
         }
     ]
 }
@@ -230,11 +230,11 @@
         },
         {
             "role": "user",
-            "content": ""
+            "content": "\\t<li><span class=\\\"rt\\\">2026-02-02</span>·<a href=\\\"http://www.zxxww.com.cn/show-164-162545-1.html\\\" target=\\\"_blank\\\" title=\\\"关于2026年寒假期间校外培训致家长一封信\\\">\\n"
         },
         {
             "role": "assistant",
-            "content": ""
+            "content": "{\"title\": \"关于2026年寒假期间校外培训致家长一封信\", \"url\": \"http://www.zxxww.com.cn/show-164-162545-1.html\", \"date\": \"2026-02-02\"}"
         }
     ]
 }
