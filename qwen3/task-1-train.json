@@ -1,0 +1,1600 @@
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": "<liclass=\\\"list-group-itemborder-0\\\"><ahref=\\\"./202602/t20260209_4898720.shtml\\\"target=\\\"_self\\\"title=\\\"竹溪文浩服饰公司招聘\\\"class=\\\"text-decoration-nonetext-reset\\\">竹溪文浩服饰公司招聘</a><spanclass=\\\"text-nowraptext-black-50pl-3d-noned-sm-inline-block\\\">2026-02-09</span><spanclass=\\\"text-nowraptext-black-50pl-3d-inline-blockd-sm-none\\\">02-09</span></li>\\n"
+        },
+        {
+            "role": "assistant",
+            "content": "{\n\"title\":\"竹溪文浩服饰公司招聘\",\n\"url\":\"http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/202602/t20260209_4898720.shtml\",\n\"date\":\"2026-02-09\"\n}"
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": "\\t<li><spanclass=\\\"rt\\\">2026-02-09</span>·<ahref=\\\"http://www.zxxww.com.cn/show-164-162814-1.html\\\"target=\\\"_blank\\\"title=\\\"竹溪县“文明过大年·新风润溪城”倡议书\\\">\\n"
+        },
+        {
+            "role": "assistant",
+            "content": "{\"title\":\"竹溪县“文明过大年·新风润溪城”倡议书\",\"url\":\"http://www.zxxww.com.cn/show-164-162814-1.html\",\"date\":\"2026-02-09\"}"
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": "\\t\\t<li><spanclass=\\\"rt\\\">2026-02-09</span>·<ahref=\\\"http://www.zxxww.com.cn/show-164-162783-1.html\\\"target=\\\"_blank\\\"title=\\\"2026年竹溪县岗位、社保补贴名册（第三批）\\\">\\n"
+        },
+        {
+            "role": "assistant",
+            "content": "{\"title\":\"2026年竹溪县岗位、社保补贴名册（第三批）\",\"url\":\"http://www.zxxww.com.cn/show-164-162783-1.html\",\"date\":\"2026-02-09\"}"
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": "\\t<li><span class=\\\"rt\\\">2026-02-07</span>·<a href=\\\"http://www.zxxww.com.cn/show-164-162750-1.html\\\" target=\\\"_blank\\\" title=\\\"关于下调天然气销售价格（试行）的通知\\\">\\n"
+        },
+        {
+            "role": "assistant",
+            "content": "{\"title\": \"关于下调天然气销售价格（试行）的通知\", \"url\": \"http://www.zxxww.com.cn/show-164-162750-1.html\", \"date\": \"2026-02-07\"}"
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "字段提取\n如果url不是http开头就用http://www.zhuxi.gov.cn/xxgkxi/fdzdgk/zdmsxx/jiuye/补全"
+        },
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": ""
+        }
+    ]
+}
