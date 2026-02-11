@@ -1,0 +1,1 @@
+FROM trainer_output/Qwen3-0.6B-zhuxi-job-1/model.gguf
