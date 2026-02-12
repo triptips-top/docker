@@ -6,7 +6,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(model_path)
 
 model = PeftModel.from_pretrained(
-    model, "trainer_output/Qwen3-0.6B-zhuxi-job-1")
+    model, "trainer_output/Qwen3-0.6B-zhuxi-job")
 
 model = model.merge_and_unload()
-model.save_pretrained("trainer_output/Qwen3-0.6B-zhuxi-job-1")
+model.save_pretrained("trainer_output/Qwen3-0.6B-zhuxi-job")

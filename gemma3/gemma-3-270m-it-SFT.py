@@ -3,9 +3,9 @@ from datasets import load_dataset
 from peft import LoraConfig
 
 trainer = SFTTrainer(
-    model=r"C:\Users\John\.cache\huggingface\hub\models--Qwen--Qwen3-0.6B\snapshots\c1899de289a04d12100db370d81485cdf75e47ca",
+    model=r"C:\Users\John\.cache\huggingface\hub\models--google--gemma-3-270m-it\snapshots\ac82b4e820549b854eebf28ce6dedaf9fdfa17b3",
     train_dataset=load_dataset("json",
-                               data_files="Qwen3-0.6B-zhuxi-job.json",
+                               data_files="gemma-3-270m-it-zhuxi-job.json",
                                split="train"),
     args=SFTConfig(learning_rate=2.0e-4),
     peft_config=LoraConfig(r=32,
