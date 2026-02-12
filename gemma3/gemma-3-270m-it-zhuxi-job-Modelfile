@@ -1,2 +1,1 @@
-FROM gemma3:270m
-ADAPTER trainer_output/gemma-3-270m-it-zhuxi-job
+FROM trainer_output/gemma-3-270m-it-zhuxi-job/model.gguf
