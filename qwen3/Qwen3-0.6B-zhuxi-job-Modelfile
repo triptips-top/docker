@@ -1,1 +1,1 @@
-FROM trainer_output/Qwen3-0.6B-zhuxi-job/model.gguf
+FROM trainer_output/checkpoint-30/model.gguf

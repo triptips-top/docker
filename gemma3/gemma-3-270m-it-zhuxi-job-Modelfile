@@ -1,1 +1,1 @@
-FROM trainer_output/gemma-3-270m-it-zhuxi-job/model.gguf
+FROM trainer_output/checkpoint-30/model.gguf
