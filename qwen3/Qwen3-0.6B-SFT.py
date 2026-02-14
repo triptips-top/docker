@@ -10,7 +10,8 @@ trainer = SFTTrainer(
     eval_dataset=load_dataset("json",
                               data_files="Qwen3-0.6B-zhuxi-job.json",
                               split="train"),
-    args=SFTConfig(learning_rate=1.0e-5,
+    args=SFTConfig(learning_rate=2.0e-5,
+                   num_train_epochs=3,
                    per_device_train_batch_size=2,
                    gradient_accumulation_steps=4,
                    eval_strategy="steps",
@@ -25,4 +26,4 @@ trainer = SFTTrainer(
                            task_type="CAUSAL_LM",
                            target_modules=["q_proj", "v_proj", "k_proj", "o_proj"])
 )
-trainer.train()
+trainer.train(resume_from_checkpoint=False)
