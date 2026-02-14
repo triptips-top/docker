@@ -1,1 +1,0 @@
-FROM trainer_output/checkpoint-30/model.gguf
