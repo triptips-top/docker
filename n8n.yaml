@@ -30,7 +30,7 @@ services:
       DB_POSTGRESDB_SCHEMA: public
 
   runners:
-    image: n8nio/runners
+    image: n8nio/runners:custom
     container_name: n8n-runners
     networks:
       - n8n
