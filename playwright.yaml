@@ -19,6 +19,7 @@ services:
       --port 8931
       --cdp-endpoint ws://lightpanda:9222
       --allowed-hosts *
+      --timeout-action 50000
 
   lightpanda:
     image: lightpanda/browser
