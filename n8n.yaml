@@ -15,6 +15,7 @@ services:
       N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: true
       N8N_SECURE_COOKIE: false
       N8N_HOST: n8n.wss.qh.cn
+      N8N_MIGRATE_FS_STORAGE_PATH: true
 
       N8N_RUNNERS_MODE: external
       N8N_RUNNERS_BROKER_LISTEN_ADDRESS: 0.0.0.0
