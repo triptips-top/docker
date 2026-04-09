@@ -5,29 +5,17 @@ services:
     networks:
       - n8n
     restart: unless-stopped
-    depends_on:
-      - lightpanda
     init: true
     entrypoint: node
-    working_dir: /app
     command: >
-      cli.js
+      /app/cli.js
       --headless
       --browser chromium
       --no-sandbox
-      --isolated
       --host 0.0.0.0
       --port 8931
-      --cdp-endpoint ws://lightpanda:9222
       --allowed-hosts *
-      --timeout-action 50000
-
-  lightpanda:
-    image: lightpanda/browser
-    container_name: lightpanda
-    networks:
-      - n8n
-    restart: unless-stopped
+      --shared-browser-context
 
 networks:
   n8n:
