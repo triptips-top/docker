@@ -5,9 +5,8 @@ services:
     volumes:
       - acme.sh:/root/.acme.sh
     network_mode: bridge
-    environment:
-      DP_Id: 585076
-      DP_Key: f7332a425a36ca35421ca65e3b999152
+    env_file:
+      - acme.sh.env
 
 volumes:
   acme.sh:

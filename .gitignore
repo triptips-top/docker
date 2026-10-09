@@ -1,0 +1,15 @@
+# 凭据类文件一律不入库
+*.env
+.env
+acme.sh.env
+*.pem
+*.key
+*.crt
+
+# 备份产物
+*.tar
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
